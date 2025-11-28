@@ -1,0 +1,46 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.evn*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Environment Variables (Crucial: Keep secrets out of repo)
+.env
+.env.*
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
+
+# Unit Test / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type Checking
+.mypy_cache/
+
+# IDEs
+.vscode/
+.idea/
+
+# Local Databases (if using SQLite)
+*.sqlite3
+*.db

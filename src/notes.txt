@@ -1,0 +1,2 @@
+sqlalchemy is ORM
+psychopg2-binary is helps to connect fastapi to postgres
