@@ -1,13 +1,16 @@
 [project]
 name = "server"
 version = "0.1.0"
-description = "Add your description here"
+description = "Underwriting platform - 5pointcredit"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "alembic>=1.17.2",
     "fastapi>=0.122.0",
     "psycopg2-binary>=2.9.11",
-    "pydantic>=2.12.4",
+    "pydantic[email]>=2.12.4",
+    "pydantic-settings>=2.12.0",
     "sqlalchemy>=2.0.44",
+    "tzdata>=2025.2",
     "uvicorn>=0.38.0",
 ]
